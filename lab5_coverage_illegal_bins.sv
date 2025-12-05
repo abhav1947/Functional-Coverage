@@ -13,7 +13,7 @@ module eg;
     }*/
     A2: coverpoint a{
       option.auto_bin_max = 8;
-      illegal_bins b1[] = {[8:11]};
+      illegal_bins b1[] = {[4:7]};
       bins b2[] = {[$:$]};
     }
   endgroup
